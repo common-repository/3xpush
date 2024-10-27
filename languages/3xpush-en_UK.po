@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 3xpush plugin\n"
+"POT-Creation-Date: 2019-12-28 17:06+0200\n"
+"PO-Revision-Date: 2019-12-28 17:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: Evgenii Zakhodyakin\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"3xpush plugin: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-xpush-admin.php:109
+msgid "Not"
+msgstr "Not"
+
+#: includes/class-xpush-admin.php:110
+msgid "Category"
+msgstr "Category"
+
+#: includes/class-xpush-admin.php:122
+msgid "Widget title"
+msgstr "3xpush. Send Push"
+
+#: includes/class-xpush-admin.php:262
+msgid "Sent"
+msgstr "Sended!"
+
+#: includes/class-xpush-admin.php:268
+msgid "ERROR"
+msgstr "ERROR:"
+
+#: includes/class-xpush-admin.php:303
+msgid "RecipientsF"
+msgstr "Recipients"
+
+#: includes/class-xpush-admin.php:309
+msgid "RecipientsN"
+msgstr "Recipients"
+
+#: includes/class-xpush-admin.php:310 templates/widget.php:14
+msgid "Sites"
+msgstr "Sites"
+
+#: includes/class-xpush-admin.php:310 templates/widget.php:22
+msgid "Regions"
+msgstr "Regions"
+
+#: includes/class-xpush-admin.php:310 templates/widget.php:38
+msgid "Langs"
+msgstr "Languages"
+
+#: includes/class-xpush-admin.php:310 templates/widget.php:53
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/class-xpush-admin.php:358
+msgid "Api-key valid"
+msgstr "Verification successful!"
+
+#: includes/class-xpush-admin.php:375
+msgid "Settings saved successfully"
+msgstr "Settings saved successfully"
+
+#: includes/class-xpush-admin.php:379
+msgid "Error saving settings"
+msgstr "Error saving settings"
+
+#: templates/notice.php:2
+msgid "Configure 3xpush plugin"
+msgstr "Configure 3xpush plugin to work correctly"
+
+#: templates/settings-page.php:11
+msgid "Settings"
+msgstr "Settings"
+
+#: templates/settings-page.php:14
+msgid "Settings-text-1"
+msgstr "Before setting, follow these steps"
+
+#: templates/settings-page.php:15
+msgid "Settings-text-2"
+msgstr "1) Sign up on"
+
+#: templates/settings-page.php:16
+msgid "Settings-text-3"
+msgstr "2) On the \"Settings - API\" page, click \"Add Key\""
+
+#: templates/settings-page.php:17
+msgid "Settings-text-4"
+msgstr "3) Copy the generated key in the field below and click \"Verify\""
+
+#: templates/settings-page.php:18
+msgid "Settings-text-5"
+msgstr "4) On the Sites page, add a site"
+
+#: templates/settings-page.php:19
+msgid "Settings-text-6"
+msgstr ""
+"5) After adding, copy the site ID that starts with # and specify it in the "
+"Site ID field"
+
+#: templates/settings-page.php:20
+msgid "Settings-text-7"
+msgstr "6) Save settings"
+
+#: templates/settings-page.php:27
+msgid "Check"
+msgstr "Check"
+
+#: templates/settings-page.php:28
+msgid "Delete"
+msgstr "Delete"
+
+#: templates/settings-page.php:34
+msgid "point without"
+msgstr "point without"
+
+#: templates/settings-page.php:38
+msgid "Pause before show"
+msgstr "Pause before showing subscription request"
+
+#: templates/settings-page.php:38
+msgid "Tooltip-1"
+msgstr "How long after entering the site to request a subscription"
+
+#: templates/settings-page.php:43
+msgid "Close the site with a block"
+msgstr "Close the site with a block with a request for subscription"
+
+#: templates/settings-page.php:43
+msgid "Tooltip-2"
+msgstr ""
+"The site will be closed by a translucent dark block with the text that you "
+"can set below"
+
+#: templates/settings-page.php:47
+msgid "Draw a cross"
+msgstr "Draw a cross to close the block"
+
+#: templates/settings-page.php:47
+msgid "Tooltip-3"
+msgstr ""
+"If not displayed, then the block will be displayed until the user subscribes"
+
+#: templates/settings-page.php:50
+msgid "Text in the block"
+msgstr "The text in the closing block"
+
+#: templates/settings-page.php:50
+msgid "Tooltip-4"
+msgstr "The text that the user will see in the overlapping block"
+
+#: templates/settings-page.php:54
+msgid "Pass as Subscriber"
+msgstr "Pass as Subscriber Tag"
+
+#: templates/settings-page.php:54
+msgid "Tooltip-5"
+msgstr "You can tag users with tags, which you can then do separately sending"
+
+#: templates/settings-page.php:62
+msgid "Default icon"
+msgstr "Default icon for push"
+
+#: templates/settings-page.php:62
+msgid "Tooltip-6"
+msgstr "Push notification icon, if not loaded, the standard icon will be used"
+
+#: templates/settings-page.php:66
+msgid "Upload image"
+msgstr "Upload image"
+
+#: templates/settings-page.php:68
+msgid "Square size"
+msgstr "Square size 192х192, JPEG, JPG, PNG"
+
+#: templates/settings-page.php:74
+msgid "Save"
+msgstr "Save"
+
+#: templates/settings-page.php:95
+msgid "Valid download file"
+msgstr "Valid download file extensions - jpg, jpeg, png"
+
+#: templates/settings-page.php:96
+msgid "Image size should be"
+msgstr "Image size should be 192 x 192 pixels"
+
+#: templates/settings-page.php:97
+msgid "Error loading image"
+msgstr "Error loading image"
+
+#: templates/widget.php:6
+msgid "Send notification"
+msgstr "Send notification"
+
+#: templates/widget.php:10
+msgid "Dispatch time"
+msgstr "Sending time"
+
+#~ msgid "Recipients2"
+#~ msgstr "Получатели"
+
+#~ msgid "Description for this field"
+#~ msgstr "Размер изображения должен быть 192 x 192 пикселей"
+
+#~ msgid "Api-key not valid"
+#~ msgstr "API KEY не действительный"
+
+#~ msgid "Api-check-success"
+#~ msgstr "API KEY валидный"
+
+#~ msgid "Api-check-error"
+#~ msgstr "API KEY не валидный"
+
+#~ msgid "Checkbox-2"
+#~ msgstr "Закрывать сайт блоком с запросом на подписку"
+
+#~ msgid "Close site"
+#~ msgstr "Закрывать сайт блоком с запросом на подписку"
+
+#~ msgid "Checkbox-1"
+#~ msgstr "Пауза перед показом запроса на подписку"

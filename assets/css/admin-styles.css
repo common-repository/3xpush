@@ -1,0 +1,330 @@
+.xpush-menu-icon {
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+.xpush {
+    margin-top: 30px;
+}
+.xpush *,
+.xpush__widget * {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.xpush .notice {
+    margin-bottom: 20px;
+}
+.xpush .notice p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+}
+.xpush .flex,
+.xpush__widget .flex{
+    display: -webkit-inline-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:  flex;
+}
+.xpush .column,
+.xpush__widget .column{
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+.xpush__header,
+.xpush__header .logo,
+.xpush__form .flex {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.xpush__header .logo {
+    width: 73px;
+    height: 64px;
+    padding-left: 75px;
+    background: url("../images/logo.png") no-repeat center left;
+    background-size: auto;
+    color: #2E3D62;
+    font-size: 24px;
+    font-weight: bold;
+}
+.xpush__header .title {
+    font-size: 22px;
+    margin-left: 200px;
+    display: inline-block;
+}
+.xpush__text {
+    margin-top: 30px;
+}
+.xpush__text p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 5px 8px 8px;
+}
+.xpush__form {
+    margin-top: 30px;
+}
+.xpush__widget .xpush__form {
+     margin-top: 0;
+}
+.xpush__form .form-block {
+    margin-bottom: 20px;
+}
+.xpush__widget .xpush__form .form-block {
+    margin-bottom: 3px;
+}
+.xpush__form .form-block.image-block {
+    margin: 25px 0 30px 0;
+}
+.xpush__form label {
+    font-size: 14px;
+    margin: 5px 5px 10px 5px;
+    display: block;
+    font-weight: normal;
+    color: #000000;
+}
+.xpush__widget .xpush__form label {
+    font-size: 13px;
+}
+.xpush__form .form-block.image-block label {
+    font-size: 12px;
+}
+.xpush__form label .tooltip {
+    background: #2E3D62;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 13px;
+    margin-left: 3px;
+}
+.xpush__form .input,
+.xpush__form .select {
+    border: solid 1px #dadada;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+}
+.xpush__form .input {
+    height: 32px;
+}
+.xpush__form .select {
+    height: 35px;
+}
+.xpush__form .input.error {
+    border: solid 1px #FF0000;
+}
+.xpush__form .input-lg {
+    width: 430px;
+}
+.xpush__form .input-md,
+.xpush__form .select {
+    width: 200px;
+}
+.xpush__form .input-sm {
+    width: 100px;
+}
+.xpush__form .checkbox {
+    margin-bottom: 15px;
+}
+.xpush__form .checkbox label {
+    display: inline-block;
+    margin-left: 0;
+}
+.xpush__widget .checkbox label {
+    margin-left: 5px;
+}
+.xpush__form .checkbox .input {
+    position: relative;
+    top: 3px;
+}
+.xpush .btn {
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-left: 4px;
+    border: 1px solid #ff8156;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #FF8156;
+    -webkit-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.xpush .btn:hover {
+    background: #FF8156;
+    color: #ffffff;
+    border-color: #FF8156;
+}
+.xpush .btn.disabled {
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+.xpush .form-block .btn {
+    width: 120px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.xpush__form .upload .inputfile+label {
+
+}
+.xpush__form .upload {
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    font-size: 14px;
+    border: none;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.5;
+    outline: none;
+    padding: 0;
+    color: #0073aa;
+}
+.xpush__form .hidden-block {
+    width: 100%;
+}
+.xpush__form .upload,
+.xpush__form .upload:hover,
+.xpush__form .upload:focus,
+.xpush__form .upload:active {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.xpush__form .upload input[type=file] {
+    display: none!important;
+}
+.xpush__form .upload .inputfile+label {
+    display: block;
+    box-sizing: border-box;
+}
+.xpush__form .upload-image {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.xpush__popup {
+    text-align: center;
+    font-size: 15px;
+}
+.xpush__widget .select,
+.xpush__widget .input {
+    width: 100%;
+    display: block;
+}
+.xpush__widget .btn-group,
+.xpush__widget .btn-default,
+.xpush__widget input[type=text] {
+    width: 100% !important;
+    text-align: left !important;
+}
+.xpush__widget .btn .caret {
+    margin-left: 0;
+    float: right;
+    position: relative;
+    top: 9px;
+}
+.xpush__widget .multiselect-container {
+    overflow-y: auto;
+    max-height: 180px;
+    width: 100%;
+}
+.xpush__widget .multiselect-container {
+    padding: 5px 10px 5px 5px;
+}
+.xpush__widget .multiselect-container>li>a>label.checkbox {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+.xpush__widget .multiselect-container>li>a>label {
+    padding: 3px 20px 3px 30px;
+}
+.xpush__widget .multiselect-container>li>a>label>input[type=checkbox] {
+    width: 12px;
+    height: 15px;
+    margin-bottom: 0;
+}
+.xpush__widget .multiselect-container>li>a>label>input[type=checkbox]:before {
+    display: none;
+}
+.xpush__widget .multiselect-container>li>a>label>input[type=checkbox]:checked {
+    background: #ff8156 !important;
+    border: solid 1px #ffffff !important;
+}
+.xpush__widget .multiselect-container .input-group-addon,
+.xpush__widget .multiselect-container .input-group-btn>.btn {
+    display: none;
+}
+.xpush__widget .multiselect-container .input-group {
+    width: 100%;
+    padding: 0;
+}
+.xpush__widget .multiselect-container .input-group .form-control {
+    width: 100%;
+    height: 18px;
+    font-size: 13px;
+    line-height: 18px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.xpush__widget .dropdown-menu>.active>a, .xpush__widget .dropdown-menu>.active>a:focus, .xpush__widget .dropdown-menu>.active>a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+.xpush__log {
+    margin-top: 40px;
+    max-width: 800px;
+    height: 300px;
+    background: #ffffff;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.xpush__log .item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.xpush__log .item p {
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 0;
+}
+.xpush__log .item .success,
+.xpush__log .item .error {
+    font-weight: bold;
+}
+.xpush__log .item .success {
+    color: #006505;
+}
+.xpush__log .item .error {
+    color: #ff0000;
+}
+.xpush__log .option {
+    margin-right: 15px;
+}
+.edit-post-layout__content .xpush__widget {
+    padding-bottom: 0;
+}
+.edit-post-layout__content .xpush__form {
+    max-width: 300px;
+}
+.edit-post-layout__content .xpush__widget .multiselect-container {
+    margin-bottom: 30px !important;
+}
